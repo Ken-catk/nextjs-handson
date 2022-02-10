@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, {useEffect} from 'react';
 import getConfig from 'next/config';
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
@@ -25,8 +25,8 @@ const fetchData = async (keyword) => {
 
 const Shops = ({ firstViewShops }) => {
   const [keyword, setKeyword] = React.useState('');
-  const [shops, setShops] = React.useState([]);
-
+  const [shops, setShops] = React.useState('');
+  
   useEffect(() => {
     setShops(firstViewShops);
   }, [firstViewShops]);
