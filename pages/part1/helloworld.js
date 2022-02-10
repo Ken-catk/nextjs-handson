@@ -1,10 +1,10 @@
 import React from 'react';
-import Link from 'next/link';
 
 const HelloWorld = () => {
   return (
     <div>
       <div>Welcome to Next.js!</div>
+      <div>サンプルです</div>
     </div>
   );
 };
